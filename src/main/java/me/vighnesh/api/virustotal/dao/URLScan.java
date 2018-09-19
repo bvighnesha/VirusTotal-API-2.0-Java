@@ -18,6 +18,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public class URLScan {
 
+    @SerializedName("detected")
     @Expose
     private boolean malicious;
     @SerializedName("result")
